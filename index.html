@@ -71,10 +71,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+    <article id="post-Docker-Compose-部署-RssHub" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
-    <a href="/2026/09/18/hello-world/" class="article-date">
-  <time class="dt-published" datetime="2026-09-18T06:48:19.926Z" itemprop="datePublished">2026-09-18</time>
+    <a href="/2026/09/22/Docker-Compose-%E9%83%A8%E7%BD%B2-RssHub/" class="article-date">
+  <time class="dt-published" datetime="2026-09-22T02:40:25.000Z" itemprop="datePublished">2026-09-22</time>
 </a>
     
   </div>
@@ -85,7 +85,90 @@
         
   
     <h1 itemprop="name">
-      <a class="p-name article-title" href="/2026/09/18/hello-world/">Hello World</a>
+      <a class="p-name article-title" href="/2026/09/22/Docker-Compose-%E9%83%A8%E7%BD%B2-RssHub/">RSSHub</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="Docker-Compose-部署-RSSHub"><a href="#Docker-Compose-部署-RSSHub" class="headerlink" title="Docker Compose 部署 RSSHub"></a>Docker Compose 部署 RSSHub</h2><h3 id="创建一个文件夹存放RSSHub"><a href="#创建一个文件夹存放RSSHub" class="headerlink" title="创建一个文件夹存放RSSHub"></a>创建一个文件夹存放RSSHub</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> F:\</span><br><span class="line">$ <span class="built_in">mkdir</span> RSSHub</span><br></pre></td></tr></table></figure>
+<h3 id="在根目录下下载docker-compose-yml"><a href="#在根目录下下载docker-compose-yml" class="headerlink" title="在根目录下下载docker-compose.yml"></a>在根目录下下载docker-compose.yml</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> RSSHub</span><br><span class="line">$ Invoke-WebRequest https://raw.githubusercontent.com/DIYgod/RSSHub/master/docker-compose.yml -OutFile docker-compose.yml</span><br></pre></td></tr></table></figure>
+<h3 id="执行Docker-Compose"><a href="#执行Docker-Compose" class="headerlink" title="执行Docker Compose"></a>执行Docker Compose</h3><p>确认Docker Engine在后台运行的情况下执行下列命令</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ docker compose up -d</span><br></pre></td></tr></table></figure>
+<p>等待镜像拉取与容器创建等步骤后就可以进入本机的<a target="_blank" rel="noopener" href="http://localhost:1200/">http://localhost:1200/</a> 查看RSS的运行状况了</p>
+<h2 id="开发RSS路由"><a href="#开发RSS路由" class="headerlink" title="开发RSS路由"></a>开发RSS路由</h2>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2026/09/22/Docker-Compose-%E9%83%A8%E7%BD%B2-RssHub/" data-id="cuidm3FUHUV2-nypuHMnkOuAr" data-title="RSSHub" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-卸载应用" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2026/09/20/%E5%8D%B8%E8%BD%BD%E5%BA%94%E7%94%A8/" class="article-date">
+  <time class="dt-published" datetime="2026-09-20T01:53:28.000Z" itemprop="datePublished">2026-09-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2026/09/20/%E5%8D%B8%E8%BD%BD%E5%BA%94%E7%94%A8/">卸载应用</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="Win-I"><a href="#Win-I" class="headerlink" title="Win + I"></a>Win + I</h1><p>直接在设置 &gt; 应用 &gt; 安装的应用界面卸载</p>
+<h1 id="Win-R-appwiz-cpl"><a href="#Win-R-appwiz-cpl" class="headerlink" title="Win + R + appwiz.cpl"></a>Win + R + appwiz.cpl</h1><p>在控制面板 &gt; 程序 &gt; 程序和功能界面卸载</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2026/09/20/%E5%8D%B8%E8%BD%BD%E5%BA%94%E7%94%A8/" data-id="cuidjPvA1eOCyO5UHm0-jc6y2" data-title="卸载应用" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2026/09/19/hello-world/" class="article-date">
+  <time class="dt-published" datetime="2026-09-19T11:43:09.794Z" itemprop="datePublished">2026-09-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2026/09/19/hello-world/">Hello World</a>
     </h1>
   
 
@@ -110,7 +193,49 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2026/09/18/hello-world/" data-id="cuidSjdhrL1vp4ltic1-pHMNL" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="http://example.com/2026/09/19/hello-world/" data-id="cuidTS1feTsY5SsQ-0DBFNdxy" data-title="Hello World" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-My first blog for markdown test" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2026/09/19/My%20first%20blog%20for%20markdown%20test/" class="article-date">
+  <time class="dt-published" datetime="2026-09-19T09:21:32.000Z" itemprop="datePublished">2026-09-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2026/09/19/My%20first%20blog%20for%20markdown%20test/">My first blog for markdown test</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h1 id="title1"><a href="#title1" class="headerlink" title="title1"></a>title1</h1><h2 id="title2"><a href="#title2" class="headerlink" title="title2"></a>title2</h2><p>This is a test paragraph.</p>
+<p>Second paragraph.</p>
+<p>This is<br>a coherent<br>paragraph.</p>
+<p>normal<strong>bold</strong>，<em>italic</em></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2026/09/19/My%20first%20blog%20for%20markdown%20test/" data-id="cuidwCFvDtwiOFxr8bvn_X0Ra" data-title="My first blog for markdown test" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -153,7 +278,19 @@
       <ul>
         
           <li>
-            <a href="/2026/09/18/hello-world/">Hello World</a>
+            <a href="/2026/09/22/Docker-Compose-%E9%83%A8%E7%BD%B2-RssHub/">RSSHub</a>
+          </li>
+        
+          <li>
+            <a href="/2026/09/20/%E5%8D%B8%E8%BD%BD%E5%BA%94%E7%94%A8/">卸载应用</a>
+          </li>
+        
+          <li>
+            <a href="/2026/09/19/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2026/09/19/My%20first%20blog%20for%20markdown%20test/">My first blog for markdown test</a>
           </li>
         
       </ul>
